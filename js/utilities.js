@@ -31,3 +31,12 @@ function setTextElementById(textId, newVariable) {
 
     textElement.innerText = newVariable;
 }
+
+// for the caculator section 
+
+
+
+document.getElementById('btn-calculator').addEventListener('click', function () {
+    window.location.href = 'calculator.html';
+})
+
